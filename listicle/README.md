@@ -30,6 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+Click on this image 👇
 [![Video Walkthrough](https://img.youtube.com/vi/woq36-PBiOY/0.jpg)](https://youtu.be/woq36-PBiOY)
 
 ## Notes
