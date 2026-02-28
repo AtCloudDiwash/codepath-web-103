@@ -39,7 +39,7 @@ Describe any challenges encountered while building the app or any additional con
 - Route handling for 404 page was quite challenging 
 - I used temporary fix to handle undefined route
 - Styling and layout part was tricky as well
-- Responsive ness
+- Fixing those ambushed tiny errors
 
 ## License
 
