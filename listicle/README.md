@@ -28,9 +28,13 @@ The following **optional** features are implemented:
 
 **Note: please be sure to 
 
-Here's a walkthrough of implemented required features: Click on this image 👇
+Here's a walkthrough of implemented required features:
 
-[![Video Walkthrough](https://img.youtube.com/vi/woq36-PBiOY/0.jpg)](https://youtu.be/woq36-PBiOY)
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=woq36-PBiOY"
+frameborder="0"
+allowfullscreen>
+</iframe>
 
 ## Notes
 
