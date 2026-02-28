@@ -1,0 +1,340 @@
+/* Root Styles CSS */
+:root {
+    background-color: black;
+    font-family: Avenir, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fof-container{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.fof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fof a{
+    color: #EA1E21;
+    text-decoration: underline;
+}
+
+#header {
+    position: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-left {}
+
+.header-right {}
+
+.nav-logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-container a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.nav-container a:hover {
+    opacity: .5;
+}
+
+#hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)),
+        url("https://wallpapers.com/images/featured/avengers-vm16xv4a69smdauy.jpg");
+    background-size: cover;
+    margin-top: -20px;
+
+}
+
+#hero-text-region {}
+
+#hero-section h1 {
+    font-size: 32px;
+    width: 50%;
+    min-width: 400px;
+}
+
+#hero-section p {
+    font-size: 16px;
+    width: 50%;
+    min-width: 400px;
+}
+
+#hero-section h1 span {
+    color: #EA1E21;
+}
+
+.explore-studion-btn {
+    background-color: transparent;
+    border: 2px solid #EA1E21;
+    border-radius: 10px;
+}
+
+.explore-studion-btn:hover {
+    opacity: .9;
+    background-color: #EA1E21;
+}
+
+#avengers-section {
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 150px;
+    background: var(--card-bg);
+    background-size: cover;
+}
+
+.card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), var(--card-bg);
+    background-size: cover;
+}
+
+.top-container {
+    display: flex;
+    padding: 30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.bottom-container {
+    padding: 30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover .top-container,
+.card:hover .bottom-container {
+    opacity: 1;
+}
+
+.read-more-btn {
+    background-color: transparent;
+    border: 2px solid #EA1E21;
+    border-radius: 10px;
+}
+
+
+#avenger-content{
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avenger-image{
+    width: 500px;
+    height: 450px;
+}
+
+
+
+/* Header CSS */
+/* .header-container {
+    overflow: hidden;
+    padding: 20px 10px;
+    padding-bottom: 60px;
+  }
+
+.header-left {
+    float: left;
+    height: 100px;
+    width: 310px;
+}
+
+.header-left img {
+    padding-top: 8px;
+    height: 80px;
+}
+
+.header-left h1 {
+    float: right;
+    font-size: 45px;
+    
+}
+
+.header-right {
+    float: right;
+    padding-top:30px;
+    padding-right:10px;
+}
+
+.header-right button {
+  background-color: white;
+  border: solid;
+  border-width: 3px;
+  border-color: rgb(3, 7, 89);
+  border-radius: 0.1rem;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color:  rgb(3, 7, 89);
+  cursor: pointer;
+  padding: 15px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  width: 80px;
+}
+
+/* Home page CSS */
+/* 
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(3, 7, 89);
+    border-radius: 0.3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.top-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.bottom-container {
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.bottom-container h3 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.bottom-container p {
+    margin: 2px;
+}
+
+.bottom-container a {
+    color: rgb(228, 16, 133);
+    text-decoration: none;
+}
+
+/* 404 Page CSS */
+
+/* .fof-container{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: black;
+}
+
+.fof {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1 {
+    color:rgb(26, 25, 25);
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .6s alternate infinite;
+}
+
+@keyframes type {
+    from {box-shadow: inset -3px 0px 0px #888;}
+    to {box-shadow: inset -3px 0px 0px transparent;}
+} */
+
+/* Detail Page CSS*/
+
+/* .gift-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    padding-left: 100px;
+    width: 40vw;
+}
+
+.image-container img {
+    width: 80%;
+}
+
+.gift-details {
+    width: 45vw;
+}   */
