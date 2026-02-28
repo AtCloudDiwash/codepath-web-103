@@ -24,17 +24,11 @@ The following **optional** features are implemented:
 
 - [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
-## Video Walkthrough
+## 🎥 Video Walkthrough
 
-**Note: please be sure to 
+Click the image below to watch:
 
-Here's a walkthrough of implemented required features:
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=woq36-PBiOY"
-frameborder="0"
-allowfullscreen>
-</iframe>
+[![Video Walkthrough](https://img.youtube.com/vi/woq36-PBiOY/0.jpg)](https://www.youtube.com/watch?v=woq36-PBiOY)
 
 ## Notes
 
