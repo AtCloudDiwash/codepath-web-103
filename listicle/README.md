@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - *Marvel Avenger Listicle*
 
-Submitted by: **Your name here**
+Submitted by: **Diwash Kuskusmiya**
 
-About this web app: **App description here**
+About this web app: **This app allows you to explore different avengers in the Marvel Comics**
 
-Time spent: **X** hours
+Time spent: **5** hours
 
 ## Required Features
 
@@ -32,16 +32,14 @@ Here's a walkthrough of implemented required features:
 
 [![Video Walkthrough](https://img.youtube.com/vi/woq36-PBiOY/0.jpg)](https://youtu.be/woq36-PBiOY)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+- Route handling for 404 page was quite challenging 
+- I used temporary fix to handle undefined route
+- Styling and layout part was tricky as well
+- Responsive ness
 
 ## License
 
