@@ -28,9 +28,8 @@ The following **optional** features are implemented:
 
 **Note: please be sure to 
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features: Click on this image 👇
 
-Click on this image 👇
 [![Video Walkthrough](https://img.youtube.com/vi/woq36-PBiOY/0.jpg)](https://youtu.be/woq36-PBiOY)
 
 ## Notes
