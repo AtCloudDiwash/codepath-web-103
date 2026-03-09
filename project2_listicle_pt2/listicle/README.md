@@ -4,7 +4,7 @@ Submitted by: **Diwash Kuskusmiya**
 
 About this web app: **This app allows you to explore different avengers in the Marvel Comics**
 
-Time spent: **6** hours
+Time spent: **5** hours
 
 ## Required Features
 
