@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import EventCard from "../components/EventCard";
+import Loader from "../components/Loader";
 
 // Fix Leaflet default marker icons broken by bundlers
 delete L.Icon.Default.prototype._getIconUrl;
@@ -67,24 +68,15 @@ export default function Home() {
     navigate(`/events/${encodeURIComponent(title)}`);
   };
 
-  if (loading) {
-    return (
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          height: "calc(100vh - 56px)",
-          color: "#6b7280",
-        }}
-      >
-        Loading map...
-      </div>
-    );
-  }
+  if (loading) return <Loader />;
 
   return (
     <div style={{ height: "calc(100vh - 56px)" }}>
+      <div className="text-center h-15">
+        <p style={{ fontSize: "15px", color: "#6b7280", margin: 0, lineHeight: 1.5 }}>
+          Click any <strong style={{ color: "#a21caf" }}>pin</strong> on the map to see all events happening in that city.
+        </p>
+      </div>
       <MapContainer
         center={[39.5, -98.35]}
         zoom={4}
