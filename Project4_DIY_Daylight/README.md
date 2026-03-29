@@ -43,7 +43,7 @@ Here's a walkthrough of implemented required features:
 [![Watch the video](https://img.youtube.com/vi/dNUx_rrrxvU/maxresdefault.jpg)](https://youtu.be/dNUx_rrrxvU)
 
 
-[![View GIF](https://i.imgur.com/dUm7IuF.png)](https://imgur.com/a/dUm7IuF)
+[![View GIF](https://i.imgur.com/dUm7IuF)](https://imgur.com/a/dUm7IuF)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
