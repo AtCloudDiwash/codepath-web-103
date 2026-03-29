@@ -1,6 +1,6 @@
-# WEB103 Project 4 - *Name of App Here*
+# WEB103 Project 4 - *Build Your Lamp*
 
-Submitted by: **Build Your Lamp**
+Submitted by: **Diwash Kuskusmiya**
 
 About this web app: **The app lets you build you own lamp and mantain the collection of it**
 
